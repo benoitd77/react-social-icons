@@ -7,8 +7,9 @@
     "start": "./scripts/dev-examples.sh",
     "test": "karma start",
     "test-dev": "karma start --auto-watch --no-single-run",
-    "prepare": "npm run build",
-    "publish": "./scripts/release.sh"
+    "prepare": "NODE_ENV=production babel -d ./lib ./src",
+    "publish": "./scripts/release.sh",
+    "build": "npm run build"
   },
   "author": "jaketrent",
   "license": "MIT",
