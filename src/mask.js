@@ -17,9 +17,4 @@ function Mask({ color, networkKey, ...rest }) {
   );
 }
 
-Mask.propTypes = {
-  color: PropTypes.string,
-  networkKey: PropTypes.string.isRequired,
-};
-
 export default Mask;

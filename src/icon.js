@@ -10,8 +10,4 @@ function Icon({ networkKey, ...props }) {
   );
 }
 
-Icon.propTypes = {
-  networkKey: PropTypes.string.isRequired,
-};
-
 export default Icon;

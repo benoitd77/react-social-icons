@@ -33,12 +33,4 @@ function SocialIcon(props) {
   );
 }
 
-SocialIcon.propTypes = {
-  className: PropTypes.string,
-  color: PropTypes.string,
-  label: PropTypes.string,
-  network: PropTypes.string,
-  url: PropTypes.string,
-};
-
 export default SocialIcon;

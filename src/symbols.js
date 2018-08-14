@@ -35,8 +35,4 @@ function Symbols(props) {
   );
 }
 
-Symbols.propTypes = {
-  networks: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
-
 export default Symbols;
